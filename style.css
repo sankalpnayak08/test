@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 113px; 
+    
+}
+.logo{
+    background-image: url(Amazon-Logo-White@zeevector.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100%; 
+    display: flex;}
+  
+.border {
+    border: 1.5px solid transparent;
+    transition: border 0.3s ease;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.navadress{
+    color: white;
+}
+
+.add1{
+color: #CCCCCC;
+font-size: 12px;
+margin-left: 14px;
+}
+
+.add2{
+font-size: 14px;
+margin-left: 2px;
+}
+
+.addicon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 4px;
+}
+
+.searchselect{
+    text-align: center;
+    background-color: #E6E6E6;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.searchinput{
+    width:100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #FEBD68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+}
+
+.flag{
+    background-image: url(united-kingdom.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 18  px;
+    width: 21px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.language{
+ height: 21px;
+ width: 74px;
+ display: flex;
+}
+
+.selectlan{
+    background-color: transparent;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hellosign{
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hello{
+    font-size: 12px;
+}
+.account{
+    font-size: 14px;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    font-weight: 900px;
+}
+.returnorder{
+    color: white;
+}
+.returns{
+    font-size: 12px;
+}
+.order{
+    font-size: 14px;
+}
+.cart{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer{
+    height: 1009;
+    background-color: red;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/**
+panel
+**/
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #232F3E;
+    color: #FFFFFF;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.paneloptions p {
+    display: inline;
+    margin-left: 15px;
+}
+.paneloptions{
+    width:70%
+}
+.paneldeals{
+    font-size: 15px;
+    font-weight: 700px;
+}
+
+
+
+
+.herosection{
+    background-image: url("hero1.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+   
+}
+.hero-msg{
+    background-color: #F5F5F6;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    width: 1400px;
+    margin-left: 40px;
+    margin-top: 250px;
+
+}
+
+
+.hero-msg a{
+    color: #007185;
+}
+
+/** main**/
+.body{
+    display: flex;
+    margin-left: -1400px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 25px;
+    margin-top: 325px;
+}
+.box1{
+    height: 400px;
+    width: 300px;
+    
+    background-color: #FFFFFF;
+    padding: 20px;
+    }
+.box2{
+    height: 400px;
+    width: 300px;
+   
+    background-color: #FFFFFF;
+    padding: 20px;
+    
+   
+}
+.box3{
+    height: 400px;
+    width: 300px;
+    
+    background-color: #FFFFFF;
+    padding: 20px;
+    //*margin-left: -1400px;
+    margin-top: 310px;**/
+}
+.box4{
+    height: 400px;
+    width: 300px;
+    
+    background-color: #FFFFFF;
+    padding: 20px;
+   
+}
+
+.box1 h2{
+    font-size: 21px;
+}
+.box1img{
+    background-size: cover;
+    height: 85%
+  
+}
+.box1 a{
+    color: #007185;
+}
+.box2 h2{
+    font-size: 21px;
+}
+.box2img{
+    background-size: cover;
+    height: 85%
+  
+}
+.box2 a{
+    color: #007185;
+}
+.box3 h2{
+    font-size: 21px;
+}
+.box3img{
+    background-size: cover;
+    height: 85%
+  
+}
+.box3 a{
+    color: #007185;
+}
+.box4 h2{
+    font-size: 21px;
+}
+.box4img{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+
+    height: 85%
+  
+}
+.box4 a{
+    color: #007185;
+}
